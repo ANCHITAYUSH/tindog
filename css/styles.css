@@ -6,9 +6,13 @@ body{
 h1{
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
   color: white;
+}
+
+h2{
+  font-size: 3rem;
 }
 
 h3{
@@ -36,7 +40,7 @@ p{
 
 .navbar-brand{
   font-family: 'Ubuntu';
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 
@@ -49,6 +53,8 @@ p{
 .title-image {
   width: 70%;
   transform: rotate(20deg);
+  position: relative;
+  left: 10%;
 }
 
 /*Features*/
@@ -68,4 +74,31 @@ p{
 
 .feature-icon:hover{
   color: #ff4c68;
+}
+
+/*Testimonials*/
+#testimonials{
+  padding: 7% 15%;
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+
+.testimonial-image{
+  width: 15%;
+  border-radius: 50%;
+  margin: 5%;
+}
+
+/*Press*/
+#press{
+  padding: 0% 15%;
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image{
+  height: 2.5rem;
+  margin: 15px;
 }
